@@ -22,7 +22,7 @@ load_dotenv(find_dotenv())
 # --------------------------------------------------------------
 
 memory = makememory(ConversationBufferMemory())
-llm = OpenAI(model_name="gpt-4", openai_api_key= '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')
+llm = OpenAI(model_name="gpt-4", openai_api_key= 'your key here')
 
 
 conversation =  ConversationChain(llm = llm, 
